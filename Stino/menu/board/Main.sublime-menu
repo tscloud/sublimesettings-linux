@@ -1,0 +1,173 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Board",
+				"id": "stino_board",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_boards",
+						"command": "stino_refresh_boards"
+					},
+					{
+						"caption": "Save for Current Sketch",
+						"id": "stino_save_for_sketch",
+						"command": "stino_save_for_sketch"
+					},
+					{
+						"caption": "Remove Current Sketch Settings",
+						"id": "stino_remove_sketch_settings",
+						"command": "stino_remove_sketch_settings"
+					},
+					{"caption": "-"},
+					{
+						"caption": "Generic ESP8266 Module",
+						"id": "stino_board_Generic ESP8266 Module",
+						"command": "stino_select_board",
+						"args": {"board_name": "Generic ESP8266 Module"},
+						"checkbox": true
+					},
+					{
+						"caption": "Generic ESP8285 Module",
+						"id": "stino_board_Generic ESP8285 Module",
+						"command": "stino_select_board",
+						"args": {"board_name": "Generic ESP8285 Module"},
+						"checkbox": true
+					},
+					{
+						"caption": "ESPDuino (ESP-13 Module)",
+						"id": "stino_board_ESPDuino (ESP-13 Module)",
+						"command": "stino_select_board",
+						"args": {"board_name": "ESPDuino (ESP-13 Module)"},
+						"checkbox": true
+					},
+					{
+						"caption": "Adafruit HUZZAH ESP8266",
+						"id": "stino_board_Adafruit HUZZAH ESP8266",
+						"command": "stino_select_board",
+						"args": {"board_name": "Adafruit HUZZAH ESP8266"},
+						"checkbox": true
+					},
+					{
+						"caption": "ESPresso Lite 1.0",
+						"id": "stino_board_ESPresso Lite 1.0",
+						"command": "stino_select_board",
+						"args": {"board_name": "ESPresso Lite 1.0"},
+						"checkbox": true
+					},
+					{
+						"caption": "ESPresso Lite 2.0",
+						"id": "stino_board_ESPresso Lite 2.0",
+						"command": "stino_select_board",
+						"args": {"board_name": "ESPresso Lite 2.0"},
+						"checkbox": true
+					},
+					{
+						"caption": "Phoenix 1.0",
+						"id": "stino_board_Phoenix 1.0",
+						"command": "stino_select_board",
+						"args": {"board_name": "Phoenix 1.0"},
+						"checkbox": true
+					},
+					{
+						"caption": "Phoenix 2.0",
+						"id": "stino_board_Phoenix 2.0",
+						"command": "stino_select_board",
+						"args": {"board_name": "Phoenix 2.0"},
+						"checkbox": true
+					},
+					{
+						"caption": "NodeMCU 0.9 (ESP-12 Module)",
+						"id": "stino_board_NodeMCU 0.9 (ESP-12 Module)",
+						"command": "stino_select_board",
+						"args": {"board_name": "NodeMCU 0.9 (ESP-12 Module)"},
+						"checkbox": true
+					},
+					{
+						"caption": "NodeMCU 1.0 (ESP-12E Module)",
+						"id": "stino_board_NodeMCU 1.0 (ESP-12E Module)",
+						"command": "stino_select_board",
+						"args": {"board_name": "NodeMCU 1.0 (ESP-12E Module)"},
+						"checkbox": true
+					},
+					{
+						"caption": "Olimex MOD-WIFI-ESP8266(-DEV)",
+						"id": "stino_board_Olimex MOD-WIFI-ESP8266(-DEV)",
+						"command": "stino_select_board",
+						"args": {"board_name": "Olimex MOD-WIFI-ESP8266(-DEV)"},
+						"checkbox": true
+					},
+					{
+						"caption": "SparkFun ESP8266 Thing",
+						"id": "stino_board_SparkFun ESP8266 Thing",
+						"command": "stino_select_board",
+						"args": {"board_name": "SparkFun ESP8266 Thing"},
+						"checkbox": true
+					},
+					{
+						"caption": "SparkFun ESP8266 Thing Dev",
+						"id": "stino_board_SparkFun ESP8266 Thing Dev",
+						"command": "stino_select_board",
+						"args": {"board_name": "SparkFun ESP8266 Thing Dev"},
+						"checkbox": true
+					},
+					{
+						"caption": "SweetPea ESP-210",
+						"id": "stino_board_SweetPea ESP-210",
+						"command": "stino_select_board",
+						"args": {"board_name": "SweetPea ESP-210"},
+						"checkbox": true
+					},
+					{
+						"caption": "WeMos D1 R2 & mini",
+						"id": "stino_board_WeMos D1 R2 & mini",
+						"command": "stino_select_board",
+						"args": {"board_name": "WeMos D1 R2 & mini"},
+						"checkbox": true
+					},
+					{
+						"caption": "WeMos D1(Retired)",
+						"id": "stino_board_WeMos D1(Retired)",
+						"command": "stino_select_board",
+						"args": {"board_name": "WeMos D1(Retired)"},
+						"checkbox": true
+					},
+					{
+						"caption": "ESPino (ESP-12 Module)",
+						"id": "stino_board_ESPino (ESP-12 Module)",
+						"command": "stino_select_board",
+						"args": {"board_name": "ESPino (ESP-12 Module)"},
+						"checkbox": true
+					},
+					{
+						"caption": "ThaiEasyElec's ESPino",
+						"id": "stino_board_ThaiEasyElec's ESPino",
+						"command": "stino_select_board",
+						"args": {"board_name": "ThaiEasyElec's ESPino"},
+						"checkbox": true
+					},
+					{
+						"caption": "WifInfo",
+						"id": "stino_board_WifInfo",
+						"command": "stino_select_board",
+						"args": {"board_name": "WifInfo"},
+						"checkbox": true
+					},
+					{
+						"caption": "Core Development Module",
+						"id": "stino_board_Core Development Module",
+						"command": "stino_select_board",
+						"args": {"board_name": "Core Development Module"},
+						"checkbox": true
+					}
+				]
+			}
+		]
+	}
+]

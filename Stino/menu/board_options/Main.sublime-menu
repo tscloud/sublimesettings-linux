@@ -1,0 +1,110 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Board Options",
+				"id": "board_options",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_board_options",
+						"command": "stino_refresh_board_options"
+					},
+					{"caption": "-"},
+					{
+						"caption": "CPU Frequency",
+						"id": "stino_board_CPU Frequency",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "80 MHz",
+								"id": "stino_board_option_80 MHz",
+								"command": "stino_select_board_option",
+								"args": {"option": "CPU Frequency", "value": "80 MHz"},
+								"checkbox": true
+							},
+							{
+								"caption": "160 MHz",
+								"id": "stino_board_option_160 MHz",
+								"command": "stino_select_board_option",
+								"args": {"option": "CPU Frequency", "value": "160 MHz"},
+								"checkbox": true
+							}
+						]
+					},
+					{
+						"caption": "Flash Size",
+						"id": "stino_board_Flash Size",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "4M (3M SPIFFS)",
+								"id": "stino_board_option_4M (3M SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "4M (3M SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "4M (1M SPIFFS)",
+								"id": "stino_board_option_4M (1M SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "4M (1M SPIFFS)"},
+								"checkbox": true
+							}
+						]
+					},
+					{
+						"caption": "Upload Speed",
+						"id": "stino_board_Upload Speed",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "115200",
+								"id": "stino_board_option_115200",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "115200"},
+								"checkbox": true
+							},
+							{
+								"caption": "9600",
+								"id": "stino_board_option_9600",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "9600"},
+								"checkbox": true
+							},
+							{
+								"caption": "57600",
+								"id": "stino_board_option_57600",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "57600"},
+								"checkbox": true
+							},
+							{
+								"caption": "256000",
+								"id": "stino_board_option_256000",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "256000"},
+								"checkbox": true
+							},
+							{
+								"caption": "921600",
+								"id": "stino_board_option_921600",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "921600"},
+								"checkbox": true
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,77 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Open Sketch",
+				"id": "stino_sketchbook",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_sketchbook",
+						"command": "stino_refresh_sketchbook"
+					},
+					{
+						"caption": "Change Location...",
+						"id": "stino_change_sketchbook_location",
+						"command": "stino_change_sketchbook_location"
+					},
+					{
+						"caption": "In New Window",
+						"id": "stino_open_in_new_win",
+						"command": "stino_open_in_new_win",
+						"checkbox": true
+					},
+					{
+						"caption": "All Source Files",
+						"id": "stino_open_all_src",
+						"command": "stino_open_all_src",
+						"checkbox": true
+					},
+					{"caption": "-"},					{
+						"caption": "New Sketch...",
+						"id": "stino_new_sketch",
+						"command": "stino_new_sketch"
+					},
+					{"caption": "-"},
+					{
+						"caption": "ATtiny85",
+						"id": "stino_sketch_ATtiny85",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "onboard_blink",
+								"id": "stino_sketch_onboard_blink",
+								"command": "stino_open_sketch",
+								"args": {"sketch_path": "/home/tscloud/Arduino/ATtiny85/onboard_blink"}
+							}						]
+					},
+					{
+						"caption": "ESP8266",
+						"id": "stino_sketch_ESP8266",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "button_test",
+								"id": "stino_sketch_button_test",
+								"command": "stino_open_sketch",
+								"args": {"sketch_path": "/home/tscloud/Arduino/ESP8266/button_test"}
+							},
+							{
+								"caption": "wifi_test",
+								"id": "stino_sketch_wifi_test",
+								"command": "stino_open_sketch",
+								"args": {"sketch_path": "/home/tscloud/Arduino/ESP8266/wifi_test"}
+							}						]
+					}
+				]
+			}
+		]
+	}
+]

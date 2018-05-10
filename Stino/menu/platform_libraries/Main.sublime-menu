@@ -1,0 +1,161 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Import Platform Library",
+				"id": "stino_import_platform_library",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_platform_libraries",
+						"command": "stino_refresh_platform_libraries"
+					},
+					{"caption": "-"},
+					{
+						"caption": "DNSServer",
+						"id": "stino_library_DNSServer",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/DNSServer"}
+					},
+					{
+						"caption": "ESP8266AVRISP",
+						"id": "stino_library_ESP8266AVRISP",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266AVRISP"}
+					},
+					{
+						"caption": "GDBStub",
+						"id": "stino_library_GDBStub",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/GDBStub"}
+					},
+					{
+						"caption": "EEPROM",
+						"id": "stino_library_EEPROM",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/EEPROM"}
+					},
+					{
+						"caption": "TFT_Touch_Shield_V2",
+						"id": "stino_library_TFT_Touch_Shield_V2",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/TFT_Touch_Shield_V2"}
+					},
+					{
+						"caption": "ESP8266httpUpdate",
+						"id": "stino_library_ESP8266httpUpdate",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266httpUpdate"}
+					},
+					{
+						"caption": "ESP8266WiFi",
+						"id": "stino_library_ESP8266WiFi",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266WiFi"}
+					},
+					{
+						"caption": "ArduinoOTA",
+						"id": "stino_library_ArduinoOTA",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ArduinoOTA"}
+					},
+					{
+						"caption": "Ethernet(esp8266)",
+						"id": "stino_library_Ethernet(esp8266)",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/Ethernet"}
+					},
+					{
+						"caption": "Servo(esp8266)",
+						"id": "stino_library_Servo(esp8266)",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/Servo"}
+					},
+					{
+						"caption": "ESP8266HTTPClient",
+						"id": "stino_library_ESP8266HTTPClient",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266HTTPClient"}
+					},
+					{
+						"caption": "ESP8266WiFiMesh",
+						"id": "stino_library_ESP8266WiFiMesh",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266WiFiMesh"}
+					},
+					{
+						"caption": "SoftwareSerial",
+						"id": "stino_library_SoftwareSerial",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/SoftwareSerial"}
+					},
+					{
+						"caption": "ESP8266mDNS",
+						"id": "stino_library_ESP8266mDNS",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266mDNS"}
+					},
+					{
+						"caption": "ESP8266SSDP",
+						"id": "stino_library_ESP8266SSDP",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266SSDP"}
+					},
+					{
+						"caption": "SD(esp8266)",
+						"id": "stino_library_SD(esp8266)",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/SD"}
+					},
+					{
+						"caption": "ESP8266HTTPUpdateServer",
+						"id": "stino_library_ESP8266HTTPUpdateServer",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266HTTPUpdateServer"}
+					},
+					{
+						"caption": "Ticker",
+						"id": "stino_library_Ticker",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/Ticker"}
+					},
+					{
+						"caption": "ESP8266",
+						"id": "stino_library_ESP8266",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/esp8266"}
+					},
+					{
+						"caption": "Wire",
+						"id": "stino_library_Wire",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/Wire"}
+					},
+					{
+						"caption": "SPI",
+						"id": "stino_library_SPI",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/SPI"}
+					},
+					{
+						"caption": "ESP8266WebServer",
+						"id": "stino_library_ESP8266WebServer",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266WebServer"}
+					},
+					{
+						"caption": "Hash",
+						"id": "stino_library_Hash",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/.arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/Hash"}
+					}
+				]
+			}
+		]
+	}
+]

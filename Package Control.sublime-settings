@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Base16 Color Schemes",
+		"BracketHighlighter",
+		"Colorsublime",
+		"CTags",
+		"Dracula Color Scheme",
+		"Indent XML",
+		"INI",
+		"JSON Reindent",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-pylint",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"Theme - Sodarized",
+		"Theme - Spacegray"
+	]
+}

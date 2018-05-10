@@ -1,0 +1,798 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Open Example",
+				"id": "stino_examples",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_examples",
+						"command": "stino_refresh_examples"
+					},
+					{"caption": "-"},
+					{"caption": "-"},
+					{
+						"caption": "Firmata",
+						"id": "stino_example_Firmata",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "StandardFirmataWiFi",
+										"id": "stino_example_StandardFirmataWiFi",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/StandardFirmataWiFi"}
+									},
+									{
+										"caption": "StandardFirmata",
+										"id": "stino_example_StandardFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/StandardFirmata"}
+									},
+									{
+										"caption": "StandardFirmataEthernet",
+										"id": "stino_example_StandardFirmataEthernet",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/StandardFirmataEthernet"}
+									},
+									{
+										"caption": "AnalogFirmata",
+										"id": "stino_example_AnalogFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/AnalogFirmata"}
+									},
+									{
+										"caption": "StandardFirmataChipKIT",
+										"id": "stino_example_StandardFirmataChipKIT",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/StandardFirmataChipKIT"}
+									},
+									{
+										"caption": "StandardFirmataPlus",
+										"id": "stino_example_StandardFirmataPlus",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/StandardFirmataPlus"}
+									},
+									{
+										"caption": "SimpleDigitalFirmata",
+										"id": "stino_example_SimpleDigitalFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/SimpleDigitalFirmata"}
+									},
+									{
+										"caption": "StandardFirmataBLE",
+										"id": "stino_example_StandardFirmataBLE",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/StandardFirmataBLE"}
+									},
+									{
+										"caption": "ServoFirmata",
+										"id": "stino_example_ServoFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/ServoFirmata"}
+									},
+									{
+										"caption": "SimpleAnalogFirmata",
+										"id": "stino_example_SimpleAnalogFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/SimpleAnalogFirmata"}
+									},
+									{
+										"caption": "AllInputsFirmata",
+										"id": "stino_example_AllInputsFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/AllInputsFirmata"}
+									},
+									{
+										"caption": "EchoString",
+										"id": "stino_example_EchoString",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/EchoString"}
+									},
+									{
+										"caption": "OldStandardFirmata",
+										"id": "stino_example_OldStandardFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/examples/OldStandardFirmata"}
+									}								]
+							},
+							{
+								"caption": "extras",
+								"id": "stino_example_extras",
+								"children":
+								[
+									{"caption": "-"}								]
+							},
+							{
+								"caption": "utility",
+								"id": "stino_example_utility",
+								"children":
+								[
+									{"caption": "-"}								]
+							},
+							{
+								"caption": "test",
+								"id": "stino_example_test",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "firmata_test",
+										"id": "stino_example_firmata_test",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Firmata/test/firmata_test"}
+									}								]
+							}						]
+					},
+					{
+						"caption": "Adafruit BME280 Library",
+						"id": "stino_example_Adafruit BME280 Library",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "bme280test",
+										"id": "stino_example_bme280test",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_BME280_Library/examples/bme280test"}
+									},
+									{
+										"caption": "advancedsettings",
+										"id": "stino_example_advancedsettings",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_BME280_Library/examples/advancedsettings"}
+									}								]
+							}						]
+					},
+					{
+						"caption": "Adafruit IO Arduino",
+						"id": "stino_example_Adafruit IO Arduino",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "wifi",
+										"id": "stino_example_wifi",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "util",
+										"id": "stino_example_util",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "blocks",
+										"id": "stino_example_blocks",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "adafruitio_09_analog_out",
+										"id": "stino_example_adafruitio_09_analog_out",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_09_analog_out"}
+									},
+									{
+										"caption": "adafruitio_01_subscribe",
+										"id": "stino_example_adafruitio_01_subscribe",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_01_subscribe"}
+									},
+									{
+										"caption": "adafruitio_06_digital_in",
+										"id": "stino_example_adafruitio_06_digital_in",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_06_digital_in"}
+									},
+									{
+										"caption": "adafruitio_12_group_sub",
+										"id": "stino_example_adafruitio_12_group_sub",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_12_group_sub"}
+									},
+									{
+										"caption": "adafruitio_10_dashboard_creation",
+										"id": "stino_example_adafruitio_10_dashboard_creation",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_10_dashboard_creation"}
+									},
+									{
+										"caption": "adafruitio_05_type_conversion",
+										"id": "stino_example_adafruitio_05_type_conversion",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_05_type_conversion"}
+									},
+									{
+										"caption": "adafruitio_08_analog_in",
+										"id": "stino_example_adafruitio_08_analog_in",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_08_analog_in"}
+									},
+									{
+										"caption": "adafruitio_03_multiple_feeds",
+										"id": "stino_example_adafruitio_03_multiple_feeds",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_03_multiple_feeds"}
+									},
+									{
+										"caption": "adafruitio_15_temp_humidity",
+										"id": "stino_example_adafruitio_15_temp_humidity",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_15_temp_humidity"}
+									},
+									{
+										"caption": "adafruitio_00_publish",
+										"id": "stino_example_adafruitio_00_publish",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_00_publish"}
+									},
+									{
+										"caption": "adafruitio_11_group_pub",
+										"id": "stino_example_adafruitio_11_group_pub",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_11_group_pub"}
+									},
+									{
+										"caption": "adafruitio_13_rgb",
+										"id": "stino_example_adafruitio_13_rgb",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_13_rgb"}
+									},
+									{
+										"caption": "adafruitio_04_location",
+										"id": "stino_example_adafruitio_04_location",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_04_location"}
+									},
+									{
+										"caption": "adafruitio_16_servo",
+										"id": "stino_example_adafruitio_16_servo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_16_servo"}
+									},
+									{
+										"caption": "adafruitio_14_neopixel",
+										"id": "stino_example_adafruitio_14_neopixel",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_14_neopixel"}
+									},
+									{
+										"caption": "adafruitio_07_digital_out",
+										"id": "stino_example_adafruitio_07_digital_out",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_07_digital_out"}
+									},
+									{
+										"caption": "adafruitio_02_pubsub",
+										"id": "stino_example_adafruitio_02_pubsub",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino/examples/adafruitio_02_pubsub"}
+									}								]
+							}						]
+					},
+					{
+						"caption": "Adafruit GFX Library",
+						"id": "stino_example_Adafruit GFX Library",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "Fonts",
+								"id": "stino_example_Fonts",
+								"children":
+								[
+									{"caption": "-"}								]
+							},
+							{
+								"caption": "fontconvert",
+								"id": "stino_example_fontconvert",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Time",
+						"id": "stino_example_Time",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "TimeNTP_ESP8266WiFi",
+										"id": "stino_example_TimeNTP_ESP8266WiFi",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeNTP_ESP8266WiFi"}
+									},
+									{
+										"caption": "TimeGPS",
+										"id": "stino_example_TimeGPS",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeGPS"}
+									},
+									{
+										"caption": "TimeSerialDateStrings",
+										"id": "stino_example_TimeSerialDateStrings",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeSerialDateStrings"}
+									},
+									{
+										"caption": "TimeSerial",
+										"id": "stino_example_TimeSerial",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeSerial"}
+									},
+									{
+										"caption": "TimeNTP",
+										"id": "stino_example_TimeNTP",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeNTP"}
+									},
+									{
+										"caption": "Processing",
+										"id": "stino_example_Processing",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "SyncArduinoClock",
+												"id": "stino_example_SyncArduinoClock",
+												"children":
+												[
+													{"caption": "-"}												]
+											}										]
+									},
+									{
+										"caption": "TimeTeensy3",
+										"id": "stino_example_TimeTeensy3",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeTeensy3"}
+									},
+									{
+										"caption": "TimeRTCSet",
+										"id": "stino_example_TimeRTCSet",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeRTCSet"}
+									},
+									{
+										"caption": "TimeRTC",
+										"id": "stino_example_TimeRTC",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeRTC"}
+									},
+									{
+										"caption": "TimeRTCLog",
+										"id": "stino_example_TimeRTCLog",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeRTCLog"}
+									},
+									{
+										"caption": "TimeArduinoDue",
+										"id": "stino_example_TimeArduinoDue",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Time-master/examples/TimeArduinoDue"}
+									}								]
+							}						]
+					},
+					{
+						"caption": "Adafruit Unified Sensor",
+						"id": "stino_example_Adafruit Unified Sensor",
+						"children":
+						[
+							{"caption": "-"}						]
+					},
+					{
+						"caption": "Adafruit Circuit Playground",
+						"id": "stino_example_Adafruit Circuit Playground",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "B",
+										"id": "stino_example_cat_9_B",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "Birthday_Candles",
+												"id": "stino_example_Birthday_Candles",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Birthday_Candles"}
+											}										]
+									},
+									{
+										"caption": "A",
+										"id": "stino_example_cat_9_A",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "accelTap",
+												"id": "stino_example_accelTap",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/accelTap"}
+											},
+											{
+												"caption": "analog_sensors",
+												"id": "stino_example_analog_sensors",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/analog_sensors"}
+											},
+											{
+												"caption": "accel_mouse",
+												"id": "stino_example_accel_mouse",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/accel_mouse"}
+											}										]
+									},
+									{
+										"caption": "S",
+										"id": "stino_example_cat_9_S",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "Speech",
+												"id": "stino_example_Speech",
+												"children":
+												[
+													{"caption": "-"},
+													{
+														"caption": "Talk_US_Large",
+														"id": "stino_example_Talk_US_Large",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_US_Large"}
+													},
+													{
+														"caption": "Talk_US_TI99",
+														"id": "stino_example_Talk_US_TI99",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_US_TI99"}
+													},
+													{
+														"caption": "Talk_UK_Acorn",
+														"id": "stino_example_Talk_UK_Acorn",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_UK_Acorn"}
+													},
+													{
+														"caption": "Talk_US_Male",
+														"id": "stino_example_Talk_US_Male",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_US_Male"}
+													},
+													{
+														"caption": "Talk_US_Clock",
+														"id": "stino_example_Talk_US_Clock",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_US_Clock"}
+													}												]
+											},
+											{
+												"caption": "ScatchSensorBoard",
+												"id": "stino_example_ScatchSensorBoard",
+												"children":
+												[
+													{"caption": "-"}												]
+											}										]
+									},
+									{
+										"caption": "M",
+										"id": "stino_example_cat_9_M",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "mega_demo",
+												"id": "stino_example_mega_demo",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/mega_demo"}
+											},
+											{
+												"caption": "Microphone",
+												"id": "stino_example_Microphone",
+												"children":
+												[
+													{"caption": "-"},
+													{
+														"caption": "mic_meter",
+														"id": "stino_example_mic_meter",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Microphone/mic_meter"}
+													},
+													{
+														"caption": "mic_fft",
+														"id": "stino_example_mic_fft",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Microphone/mic_fft"}
+													}												]
+											}										]
+									},
+									{
+										"caption": "I",
+										"id": "stino_example_cat_9_I",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "Infrared_Read",
+												"id": "stino_example_Infrared_Read",
+												"children":
+												[
+													{"caption": "-"}												]
+											},
+											{
+												"caption": "Infrared_Record",
+												"id": "stino_example_Infrared_Record",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Infrared_Record"}
+											},
+											{
+												"caption": "Infrared_Send",
+												"id": "stino_example_Infrared_Send",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Infrared_Send"}
+											},
+											{
+												"caption": "Infrared_Testpattern",
+												"id": "stino_example_Infrared_Testpattern",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Infrared_Testpattern"}
+											},
+											{
+												"caption": "Infrared_NeoPixel",
+												"id": "stino_example_Infrared_NeoPixel",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Infrared_NeoPixel"}
+											}										]
+									},
+									{
+										"caption": "C",
+										"id": "stino_example_cat_9_C",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "color_sense",
+												"id": "stino_example_color_sense",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/color_sense"}
+											},
+											{
+												"caption": "CircuitPlaygroundFirmata",
+												"id": "stino_example_CircuitPlaygroundFirmata",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/CircuitPlaygroundFirmata"}
+											},
+											{
+												"caption": "comm_badge",
+												"id": "stino_example_comm_badge",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/comm_badge"}
+											}										]
+									},
+									{
+										"caption": "V",
+										"id": "stino_example_cat_9_V",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "vu_meter",
+												"id": "stino_example_vu_meter",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/vu_meter"}
+											}										]
+									},
+									{
+										"caption": "T",
+										"id": "stino_example_cat_9_T",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "tachometer",
+												"id": "stino_example_tachometer",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/tachometer"}
+											},
+											{
+												"caption": "tachometer_led_display",
+												"id": "stino_example_tachometer_led_display",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/tachometer_led_display"}
+											}										]
+									},
+									{
+										"caption": "H",
+										"id": "stino_example_cat_9_H",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "Hello_CircuitPlayground",
+												"id": "stino_example_Hello_CircuitPlayground",
+												"children":
+												[
+													{"caption": "-"},
+													{
+														"caption": "Hello_SoundSensor",
+														"id": "stino_example_Hello_SoundSensor",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_SoundSensor"}
+													},
+													{
+														"caption": "Hello_Accelerometer",
+														"id": "stino_example_Hello_Accelerometer",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Accelerometer"}
+													},
+													{
+														"caption": "Hello_NeoPixels",
+														"id": "stino_example_Hello_NeoPixels",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_NeoPixels"}
+													},
+													{
+														"caption": "Hello_Buttons",
+														"id": "stino_example_Hello_Buttons",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Buttons"}
+													},
+													{
+														"caption": "Hello_SlideSwitch",
+														"id": "stino_example_Hello_SlideSwitch",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_SlideSwitch"}
+													},
+													{
+														"caption": "Hello_Temperature",
+														"id": "stino_example_Hello_Temperature",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Temperature"}
+													},
+													{
+														"caption": "Hello_Speaker",
+														"id": "stino_example_Hello_Speaker",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Speaker"}
+													},
+													{
+														"caption": "Hello_Blink",
+														"id": "stino_example_Hello_Blink",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Blink"}
+													},
+													{
+														"caption": "Hello_LightSensor",
+														"id": "stino_example_Hello_LightSensor",
+														"command": "stino_open_example",
+														"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_LightSensor"}
+													}												]
+											}										]
+									},
+									{
+										"caption": "F",
+										"id": "stino_example_cat_9_F",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "FidgetSpinner",
+												"id": "stino_example_FidgetSpinner",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/FidgetSpinner"}
+											}										]
+									},
+									{
+										"caption": "D",
+										"id": "stino_example_cat_9_D",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "demo",
+												"id": "stino_example_demo",
+												"command": "stino_open_example",
+												"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground/examples/demo"}
+											}										]
+									}								]
+							},
+							{
+								"caption": "utility",
+								"id": "stino_example_utility",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Adafruit RA8875",
+						"id": "stino_example_Adafruit RA8875",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "textmode",
+										"id": "stino_example_textmode",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_RA8875/examples/textmode"}
+									},
+									{
+										"caption": "ts_calibration",
+										"id": "stino_example_ts_calibration",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_RA8875/examples/ts_calibration"}
+									},
+									{
+										"caption": "buildtest",
+										"id": "stino_example_buildtest",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_RA8875/examples/buildtest"}
+									},
+									{
+										"caption": "ra8875_bitmap",
+										"id": "stino_example_ra8875_bitmap",
+										"command": "stino_open_example",
+										"args": {"example_path": "/home/tscloud/Arduino/libraries/Adafruit_RA8875/examples/ra8875_bitmap"}
+									}								]
+							}						]
+					}
+				]
+			}
+		]
+	}
+]

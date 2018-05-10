@@ -1,0 +1,71 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Import Library",
+				"id": "stino_import_library",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_libraries",
+						"command": "stino_refresh_libraries"
+					},
+					{"caption": "-"},
+					{
+						"caption": "Firmata",
+						"id": "stino_library_Firmata",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/Arduino/libraries/Firmata"}
+					},
+					{
+						"caption": "Adafruit BME280 Library",
+						"id": "stino_library_Adafruit BME280 Library",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/Arduino/libraries/Adafruit_BME280_Library"}
+					},
+					{
+						"caption": "Adafruit IO Arduino",
+						"id": "stino_library_Adafruit IO Arduino",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/Arduino/libraries/Adafruit_IO_Arduino"}
+					},
+					{
+						"caption": "Adafruit GFX Library",
+						"id": "stino_library_Adafruit GFX Library",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/Arduino/libraries/Adafruit_GFX_Library"}
+					},
+					{
+						"caption": "Time",
+						"id": "stino_library_Time",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/Arduino/libraries/Time-master"}
+					},
+					{
+						"caption": "Adafruit Unified Sensor",
+						"id": "stino_library_Adafruit Unified Sensor",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/Arduino/libraries/Adafruit_Unified_Sensor"}
+					},
+					{
+						"caption": "Adafruit Circuit Playground",
+						"id": "stino_library_Adafruit Circuit Playground",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/Arduino/libraries/Adafruit_Circuit_Playground"}
+					},
+					{
+						"caption": "Adafruit RA8875",
+						"id": "stino_library_Adafruit RA8875",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/tscloud/Arduino/libraries/Adafruit_RA8875"}
+					}
+				]
+			}
+		]
+	}
+]
