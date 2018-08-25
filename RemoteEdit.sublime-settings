@@ -1,0 +1,17 @@
+// Settings in here override those in "RemoteEdit/RemoteEdit.sublime-settings",
+{
+        "debug": false,
+        "ssh_configs": {
+            "bigasspi": {
+                // Address of the remote server
+                // Not required, will default to the "ALIAS_NAME" string
+                "address": "bigasspi",
+                // Username to log into server with
+                // Not required, the command line scp will default it to current user
+                "username": "pi",
+                // NOTE: Remember, to authenticate you need to have your pub key
+                // registered in the remote server ssh's authorized_keys file.,
+                "create_if_missing": false
+            }
+        }
+    }
